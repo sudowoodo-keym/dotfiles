@@ -26,6 +26,9 @@ return {
               bg = "#d8d8d2",
               bg_selected = "#d8d8d2",
             },
+            float = {
+              fg = "#a1a199",
+            },
           },
         },
       },
@@ -37,7 +40,7 @@ return {
         -- Canvas
         -- canvasWhite3 = "#2d2d2d", -- inlinecursor background
         -- canvasPink3 = "#3e3e3e", -- visualline
-        canvasGray1 = "#84847e"
+        canvasGray1 = "#84847e",
       }
     }, 
   })
