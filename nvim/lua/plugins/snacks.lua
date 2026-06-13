@@ -16,10 +16,14 @@ return {
       },
       picker = {
         sources = {
-        explorer = {
-            layout = {
-              auto_hide = { "input" },
-            },
+          explorer = {
+            hidden = true,
+              layout = {
+                auto_hide = { "input" },
+              },
+          },
+          files = {
+            hidden = true,
           },
         },
       },
