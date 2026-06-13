@@ -82,11 +82,11 @@ ZSH_THEME="takashiyoshida"
 
 plugins=(
 	git
-    asdf
+  asdf
 	zsh-autosuggestions
 	fast-syntax-highlighting
 	zsh-autocomplete
-    tmux
+  tmux
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -117,7 +117,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-ZSH_TMUX_AUTOSTART=true
+ZSH_TMUX_AUTOSTART=false
 
 alias ls="colorls"
 alias lg="lazygit"
