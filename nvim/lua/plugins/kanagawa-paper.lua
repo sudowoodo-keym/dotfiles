@@ -21,6 +21,7 @@ return {
             bg_statusline = "#d8d8d2",
             bg_cursorline = "#2d2d2d",
             bg_visual = "#3e3e3e",
+            nontext = "#a1a199",
             tabline = {
               bg = "#d8d8d2",
               bg_selected = "#d8d8d2",
@@ -36,6 +37,7 @@ return {
         -- Canvas
         -- canvasWhite3 = "#2d2d2d", -- inlinecursor background
         -- canvasPink3 = "#3e3e3e", -- visualline
+        canvasGray1 = "#84847e"
       }
     }, 
   })
