@@ -11,6 +11,7 @@ return {
             bg_cursorline = "#2d2d2d",
             bg_visual = "#3e3e3e",
             bg_statusline = "#16161d",
+            nontext = "#78787b",
             tabline = {
               bg_selected = "#16161d",
             },
