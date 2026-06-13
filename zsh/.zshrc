@@ -89,6 +89,7 @@ autoload -Uz compinit && compinit
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
 	git
+  asdf
 	zsh-autosuggestions
 	fast-syntax-highlighting
 	zsh-autocomplete
