@@ -2,16 +2,16 @@
 vim.g.mapleader = " "
 
 -- Colorscheme Auto Mode
-local hour = tonumber(os.date("%H"))
-if hour >= 8 and hour < 20 then
-  vim.o.background = "light"
-  vim.api.nvim_set_hl(0, 'InsertCursor', {
-    fg = "#f0f0f0",
-    bg = "#202020",
-  })
-else
-  vim.o.background = "dark"
-end
+-- local hour = tonumber(os.date("%H"))
+-- if hour >= 8 and hour < 20 then
+--   vim.o.background = "light"
+--   vim.api.nvim_set_hl(0, 'InsertCursor', {
+--     fg = "#f0f0f0",
+--     bg = "#202020",
+--   })
+-- else
+--   vim.o.background = "dark"
+-- end
 
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
