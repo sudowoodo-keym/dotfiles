@@ -3,7 +3,7 @@ vim.g.mapleader = " "
 
 -- Colorscheme Auto Mode
 local hour = tonumber(os.date("%H"))
-if hour >= 8 and hour < 17 then
+if hour >= 9 and hour < 19 then
   vim.o.background = "light"
   vim.api.nvim_set_hl(0, 'InsertCursor', {
     fg = "#f0f0f0",
